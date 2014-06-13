@@ -6,6 +6,6 @@ public class returnOutside : MonoBehaviour {
 		
 	void OnMouseDown()
 	{
-		Application.LoadLevel ("Hotel");
+		Application.LoadLevel ("hotel01");
 	}
 }

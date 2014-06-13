@@ -49,8 +49,10 @@
      <Compile Include="Assets\CameraControl.js" />
      <Compile Include="Assets\GlobalLogic.js" />
      <Compile Include="Assets\PlayerControl.js" />
+     <Compile Include="Assets\PlayerControl02.js" />
      <Compile Include="Assets\Pointer.js" />
      <Compile Include="Assets\RoomClick.js" />
+     <Compile Include="Assets\clickRoom1.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -60,5 +62,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy TabWidth="10" IndentWidth="10" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/javascript" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
 </Project>
